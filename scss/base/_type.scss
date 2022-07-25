@@ -1,0 +1,78 @@
+// container
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-sm {
+    width: 996px;
+    margin: 0 auto;
+}
+
+// font
+.fw-medium {
+    font-weight: $fw-medium;
+}
+.text-center {
+    text-align: center;
+}
+// color
+.bg-main{
+    background: $c-main;
+}
+.text-white, .sub-title.text-white{
+    color: white;
+}
+
+// space
+// margin-bottom
+@for $i from 1 through 10 {
+    .mb-#{$i} {
+        margin-bottom: $space*$i;
+    }
+}
+// margin-right
+.mr-3 {
+    margin-right: $space*3;
+}
+// margin-left
+.ml-3 {
+    margin-left: $space*3;
+}
+// padding-top
+.pt-3 {
+    padding-top: $space*3;
+}
+.pt-5 {
+    padding-top: $space*5;
+}
+// padding-bottom
+.pb-5 {
+    padding-bottom: $space*5;
+}
+
+// flex
+.d-flex {
+    display: flex;
+}
+.fx-center {
+    justify-content: center;
+}
+
+// border-bottom
+.border::after {
+    content: '';
+    display: block;
+    height: $space;
+    border-bottom: 1px solid #000;
+}
+.thick.border::after {
+    height: $space*3;
+    border-width: 2px;
+}
+.bg-main .border::after {
+    border-color: white;
+}
+.border-left{
+    padding-left: $space*3;
+    border-left: 1px solid $c-border;
+}

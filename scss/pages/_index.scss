@@ -1,0 +1,39 @@
+// header
+h1{
+    font-size: $fz-h1;
+    font-weight: $fw-regular;
+    line-height: 95px;
+}
+// main
+.title{
+    font-size: $fz-h2;
+    font-weight: $fw-medium;
+}
+.sub-title{
+    font-size: $fz-base;
+    font-weight: $fw-semibold;
+    color: $c-accent;
+    vertical-align: text-top;
+    margin-left: $space*2;
+}
+
+// skill
+.skill-list{
+    width: 200px;
+    text-align: left;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+// work
+.work-title{
+    font-weight: $fw-medium;
+}
+.work-text{
+    font-size: $fz-sm;
+}
+// footer
+.contact:hover{
+    cursor: pointer;
+    font-weight: $fw-medium;
+}

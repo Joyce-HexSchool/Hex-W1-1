@@ -58,6 +58,11 @@
     justify-content: center;
 }
 
+// inline-block
+.d-inblock {
+    display: inline-block;
+}
+
 // border-bottom
 .border::after {
     content: '';
